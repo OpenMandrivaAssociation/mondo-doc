@@ -6,9 +6,9 @@ Summary:	Documentation for Mondo Rescue
 Summary(fr):	Documentation pour Mondo Rescue
 
 Name:		mondo-doc
-Version:	2.24
+Version:	2.28
 Packager:	Bruno Cornec <bcornec@mandriva.org>
-Release:	%mkrel 3
+Release:	%mkrel 1
 License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
