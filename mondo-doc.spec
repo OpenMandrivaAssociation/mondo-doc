@@ -6,13 +6,14 @@ Summary:	Documentation for Mondo Rescue
 Summary(fr):	Documentation pour Mondo Rescue
 
 Name:		mondo-doc
-Version:	2.28
+Version:	2.29.3
+%define upstreamv       2.2.9.3
 Packager:	Bruno Cornec <bcornec@mandriva.org>
 Release:	%mkrel 1
 License:	GPL
 Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
-Source:		ftp://ftp.mondorescue.org/src/%{name}-%{version}.tar.bz2
+Source:		ftp://ftp.mondorescue.org/src/%{name}-%{upstreamv}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
 BuildRequires:	docbook-utils
 BuildArch: noarch
@@ -24,7 +25,7 @@ Documentation for Mondo Rescue
 Documentation pour Mondo Rescue
 
 %prep
-%setup -q -n %name-%{version}
+%setup -q -n %{name}-%{upstreamv}
 
 %build
 %{__make} -f Makefile.man VERSION=%{version}
