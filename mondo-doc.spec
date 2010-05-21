@@ -15,7 +15,7 @@ Group:		Archiving/Backup
 Url:		http://www.mondorescue.org
 Source:		ftp://ftp.mondorescue.org/src/%{name}-%{upstreamv}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
-BuildRequires:	docbook-utils,man,groff
+BuildRequires:	man,docbook-utils,groff,imagemagick,docbook-dtd41-sgml,docbook-utils-pdf,lynx,groff-for-man
 BuildArch: noarch
 
 %description
