@@ -10,7 +10,7 @@ Version:	2.29.3
 Release:	3
 License:	GPL
 Group:		Archiving/Backup
-Url:		http://www.mondorescue.org
+Url:		https://www.mondorescue.org
 Source:		ftp://ftp.mondorescue.org/src/%{name}-%{upstreamv}.tar.gz
 BuildRequires:	man,docbook-utils,groff,imagemagick,docbook-dtd41-sgml,docbook-utils-pdf,lynx,groff-for-man
 BuildRequires:	ghostscript-common
